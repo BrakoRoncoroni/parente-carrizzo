@@ -87,7 +87,9 @@ nav {
 /* Hero Section */
 .hero {
     min-height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background:       
+        linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.2)),
+        url("img/bkg.png") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
